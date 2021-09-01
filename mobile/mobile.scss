@@ -1,0 +1,77 @@
+.section-header {
+    background-color: #022370;
+    display: flex;
+    height: 20px;
+}
+
+.sg-header {
+    position: relative; top: -250px;
+
+    h3 { 
+        width: 50px;
+        text-align: left;
+        word-wrap: normal;
+        font-size: 16pt;
+        margin-left: 2rem;
+    }   
+}
+
+.sg-body {
+    width: 300px;
+    margin-left: 2rem;
+    padding-top: 15px;
+    padding-bottom: 25px;
+}
+.h3.members {
+    font-size: 12pt;
+    color: rebeccapurple;
+}
+.h3.members:before {
+        content: 
+        ('https://aws1.discourse-cdn.com/business7/uploads/safegraphcommunity/original/1X/c5389ff33b51a7460c2dcc0a064efab51334f93e.png')
+}
+.h3.organizations {
+    text-align: left;
+    font-size: 12pt;
+}
+.banner-box {
+    background-size: 200px;
+    background-position: 100% 2%;
+}
+
+.members-organizations {
+    display: flex;
+    justify-content: center;
+}
+
+.members {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 2rem;
+}
+.members-content {
+    flex: 1;
+    font-size: 12pt;
+    margin-left: 20px;
+    // margin-left: 25px;
+}
+.members-title {
+    flex: 2;
+    flex-basis: 350px;
+    font-weight: 700;
+    color: #1fb6ff;
+    text-transform: uppercase;
+    img {
+        width: 15px;
+        height: auto;
+    }
+}
+
+.sg-button {
+    justify-content: center;
+    padding-top: 40px;
+    margin-left: 2rem;
+    a {
+        background-color: #fff;
+    }
+}
