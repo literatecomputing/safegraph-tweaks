@@ -74,3 +74,50 @@
         background-color: #fff;
     }
 }
+
+
+// here is stuff to fix the footer colors
+// Background Color: # ffff
+// Heading: # 32383E
+// Links: # 32383E
+// Privacy Policy Links: # 32383E
+// Footer Links: #32383E
+
+div.below-footer-outlet.custom-footer {
+    .heading {
+        color: #1FB6FF;
+        // content: ' ';
+        margin-top: -10px;
+        width: 216px; height: 72px;
+        text-indent: -9999px;
+        background: url("https://aws1.discourse-cdn.com/business7/uploads/safegraphcommunity/original/2X/d/d59f8fc945e754ae0b93fb05a964d6640e0656ae.jpeg") top right;
+    }
+    background: #ffff;
+    a {
+        color: #32383E;
+    }
+
+    .social {
+        background-color: #1fb6ff;
+    }
+    .second-box {
+
+    }
+    .list {
+        width: 175px;
+    }
+    div.links {
+        margin-left: -10px;
+
+    }
+    .footer-links {
+        a {
+        color: #32383E
+        } 
+}
+    .docs, .company, .resources, .product {
+        color: #32383E;
+    }
+
+
+}
